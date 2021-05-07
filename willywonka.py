@@ -1,4 +1,4 @@
-#willy wonka
+# import willy wonka \__("/)__/
 import socket
 import getpass
 import smtplib
@@ -42,7 +42,7 @@ def confirm():
             print('you entered a value bigger than maximal request\n[!]THE SCRIPT WILL BREAK .....')
             exit()        
         print('[+] this may take few time please wait ...')
-        time.sleep(5)
+        time.sleep(7)
         request='[+] bot had succesfully added...'
         print(request*number)
         bot_important=''
